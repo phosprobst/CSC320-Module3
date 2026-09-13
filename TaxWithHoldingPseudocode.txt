@@ -1,0 +1,24 @@
+Pseudocode
+
+START
+
+DISPLAY "Enter weekly income:"
+INPUT weeklyIncome
+
+IF weeklyIncome < 500
+    taxRate = 0.10
+ELSE IF weeklyIncome < 1500
+    taxRate = 0.15
+ELSE IF weeklyIncome < 2500
+    taxRate = 0.20
+ELSE
+    taxRate = 0.30
+END IF
+
+taxWithholding = weeklyIncome * taxRate
+
+DISPLAY weeklyIncome
+DISPLAY taxRate
+DISPLAY taxWithholding
+
+END
